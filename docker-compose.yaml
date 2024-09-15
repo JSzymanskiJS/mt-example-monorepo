@@ -1,0 +1,15 @@
+services:
+  turing:
+    build: 
+      context: ./turing
+    command: tail -f /dev/null
+    volumes:
+      - ./turing:/usr/src/app
+  jarvis:
+    build: 
+      context: ./jarvis
+    command: tail -f /dev/null
+  silver:
+    build: 
+      context: ./silver
+    command: tail -f /dev/null
