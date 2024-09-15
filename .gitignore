@@ -1,0 +1,7 @@
+.env
+
+turing/cache
+turing/out
+turing/lcov.info
+turing/coverage-report
+turing/docs

@@ -13,3 +13,8 @@ services:
     build: 
       context: ./silver
     command: tail -f /dev/null
+  # geth:
+  #   image: ethereum/client-go
+  #   command: --rpc --rpcaddr "
+  #   ports:
+  #   - "5432:5432"

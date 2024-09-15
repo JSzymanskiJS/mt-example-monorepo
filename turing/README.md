@@ -27,6 +27,18 @@ $ forge build
 $ forge test
 ```
 
+### Test Coverage
+
+```shell
+forge coverage
+```
+
+### Test Coverage with UI
+
+```shell
+$ forge coverage --report lcov && genhtml lcov.info --output-directory coverage-report
+```
+
 ### Format
 
 ```shell
